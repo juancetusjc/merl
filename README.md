@@ -1,4 +1,6 @@
 #### Sistema de Predicción del clima MERL v1.0
+Repositorio del código fuente:
+https://github.com/juancetusjc/merl.git
 
 * Ejecución en un Host público
    - Para realizar el cálculo del pronóstico del clima utilizar la siguiente dirección. :
@@ -25,3 +27,25 @@
     
    - Para impiar el historial del calculo realizado:
      * https://localhost:8088/vclima-1.0/webresources/clima?day=50
+     
+* Requisitos:
+   - Modificar la conexion de BDs en el archivo web.xml
+     * Configuración para Postgresql   
+      ** data-source
+          - name:java:app/store 
+          - class-name: org.postgresql.ds.PGPoolingDataSource
+          - server-name:localhost
+          - database-name:clima
+          - user:user
+          - password:xxxx
+      
+      
+      * Configuración para MySql      
+       ** data-source
+          - name:java:app/store 
+          - class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+          - server-name:localhost
+          - database-name:clima
+          - user:user
+          - password:xxxx
+      
