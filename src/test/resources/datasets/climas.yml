@@ -1,0 +1,16 @@
+CLIMA:
+- ID: 1
+  DAY: 1
+  PERIOD: LLUVIA
+- ID: 2
+  DAY: 2
+  PERIOD: LLUVIA
+- ID: 3
+  DAY: 3
+  PERIOD: LLUVIA
+- ID: 4
+  DAY: 4
+  PERIOD: LLUVIA
+- ID: 5
+  DAY: 5
+  PERIOD: SEQUIA
